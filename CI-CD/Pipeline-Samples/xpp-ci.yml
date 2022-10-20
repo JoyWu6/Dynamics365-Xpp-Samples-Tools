@@ -1,4 +1,8 @@
 # Sample YML pipeline for X++ builds
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'test'
 # For more information on build pipelines, see
 # https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/hosted-build-automation
 
